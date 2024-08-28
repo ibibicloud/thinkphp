@@ -1,0 +1,25 @@
+{
+    "name": "ibibicloud/thinkphp",
+    "type": "project",
+    "keywords": ["thinkphp", "framework"],
+    "description": "thinkphp8.0",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0.0",
+        "ibibicloud/thinkphp-framework": "*",
+        "ibibicloud/thinkphp-orm": "*",
+        "ibibicloud/thinkphp-upload": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": ">=4.2",
+        "ibibicloud/thinkphp-trace": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    }
+}
